@@ -43,7 +43,7 @@ function calcoloPreventivo(e){
       }
    
  
-      const prezzoFinalestrg = `&euro;${parseFloat(totalePreventivo).toFixed(2)}`
+      const prezzoFinalestrg = `Prezzo finale: <br> &euro;${parseFloat(totalePreventivo).toFixed(2)}`
       const h1ElementPrezzoFinale = document.getElementById('prezzo-finale')
  
      h1ElementPrezzoFinale.innerHTML = prezzoFinalestrg
